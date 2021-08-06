@@ -1,4 +1,4 @@
-# BankingApp
+# Banking Web App
 
 This app is mostly made with DOM elements and minimal css
 
