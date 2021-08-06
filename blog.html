@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
+    <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script defer src="script.js"></script>
+
+</head>
+<body>
+  <header class="header" style="height:0; padding-top: 1rem;">
+        <nav class="nav">
+            <a href="index.html">
+          <img
+            src="img/logo.png"
+            alt="Bankist logo"
+            class="nav__logo"
+            id="logo"
+            data-version-number="3.0"
+          />
+        </a>
+          <ul class="nav__links">
+         
+            <li class="nav__item">
+              <a class="nav__link nav__link--btn btn--show-modal" href="#"
+                >Open account</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section  class="section">
+<div class="about">
+    <h1>Blog</h1>
+    <!-- <h2> Ownership of Site</h2> -->
+    <p>
+        Sometimes, the best blog designs are also the simplest. Help Scout, makers of customer service software, uses a unique but minimalist design on its blog that we love — it limits the use of copy and visuals and embraces negative space.
+
+What we particularly like about this blog is its use of featured images for all posts, including a banner one at the top that highlights a recent or particularly popular entry. These icons are set in front of bright, block colors that catch the readers' eye and signal what the post is about. And it works — everything about this blog's design says "clean" and "readable."
+       </p>
+        </div>
+      </section>
+  <footer  class="footer"> 
+    <ul class="footer__nav">
+        <li class="footer__item">
+          <a class="footer__link" href="about.html">About</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="pricing.html">Pricing</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="terms-and-condtion.html">Terms of Use</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="privacy-policy.html">Privacy Policy</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="careers.html">Careers</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="blog.html">Blog</a>
+        </li>
+        <li class="footer__item">
+          <a class="footer__link" href="contact-us.html">Contact Us</a>
+        </li>
+      </ul>
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        Made with love ❤
+      </p>
+  </footer>
+
+  <div class="modal hidden">
+    <button class="btn--close-modal">&times;</button>
+    <h2 class="modal__header">
+      Open your bank account <br />
+      in just <span class="highlight">5 minutes</span>
+    </h2>
+    <form class="modal__form">
+      <label>First Name</label>
+      <input type="text" />
+      <label>Last Name</label>
+      <input type="text" />
+      <label>Email Address</label>
+      <input type="email" />
+      <button class="btn">Next step &rarr;</button>
+    </form>
+  </div>
+  <div class="overlay hidden"></div>
+</body>
+</html>
